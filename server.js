@@ -9,7 +9,7 @@ app.use(router)
 app.use(facilatorroute)
 
 const port = 3000;
-mongoose.connect('mongodb://localhost:27017/SMS')
+mongoose.connect("mongodb+srv://jishimwe24:tOdtY7imhqwkLI7S@cluster0.vypevxm.mongodb.net/ContactApp1")
 app.listen(port,()=>{
     console.log(`the server is running on port${port}.....`)
 })
